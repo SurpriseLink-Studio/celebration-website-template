@@ -1,5 +1,4 @@
 [build]
-  base = "official-site"
   publish = "."
 
 [[headers]]
@@ -8,3 +7,4 @@
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+    X-Frame-Options = "DENY"
